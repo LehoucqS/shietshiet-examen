@@ -1,0 +1,8 @@
+<Solution>
+  <Project Path="EventPlanner.API.Contracts/EventPlanner.API.Contracts.csproj" />
+  <Project Path="EventPlanner.API/EventPlanner.API.csproj" />
+  <Project Path="EventPlanner.Data.Entities/EventPlanner.Data.Entities.csproj" />
+  <Project Path="EventPlanner.Data/EventPlanner.Data.csproj" />
+  <Project Path="EventPlanner.Service.Models/EventPlanner.Service.Models.csproj" />
+  <Project Path="EventPlanner.Service/EventPlanner.Service.csproj" />
+</Solution>
