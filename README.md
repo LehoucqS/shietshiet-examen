@@ -168,11 +168,11 @@ Voorbeeld: EventPlanner met opgave uit cursus (Cover All)
 
 ## Voorbeelden van endpoints: bekijk solution
 
-
 ## MongoDB
 
+    
     1. In Data, maak MongoDbSettings.cs
-        ```
+       ````
         public class MongoDbSettings
         {
             public string ConnectionString { get; set; }
