@@ -1,0 +1,201 @@
+i have a .net solution with an API project. I want to connect to a mongodb database
+00:27
+
+I'll help you connect a .NET API project to MongoDB. Here's a step-by-step guide:
+1. Install the MongoDB Driver
+
+First, install the MongoDB driver NuGet package in your API project:
+bash
+
+dotnet add package MongoDB.Driver
+
+2. Create Your Model
+
+Create a model class for your MongoDB documents. MongoDB uses _id as the default identifier:
+csharp
+
+using MongoDB.Bson;
+using MongoDB.Bson.Serialization.Attributes;
+
+public class Product
+{
+    [BsonId]
+    [BsonRepresentation(BsonType.ObjectId)]
+    public string? Id { get; set; }
+    
+    [BsonElement("name")]
+    public string Name { get; set; } = string.Empty;
+    
+    [BsonElement("price")]
+    public decimal Price { get; set; }
+    
+    [BsonElement("category")]
+    public string Category { get; set; } = string.Empty;
+}
+
+3. Configure Database Settings
+
+Create a settings class in your project:
+csharp
+
+public class MongoDbSettings
+{
+    public string ConnectionString { get; set; } = string.Empty;
+    public string DatabaseName { get; set; } = string.Empty;
+}
+
+Add the configuration to your appsettings.json:
+json
+
+{
+  "MongoDbSettings": {
+    "ConnectionString": "mongodb://localhost:27017",
+    "DatabaseName": "YourDatabaseName"
+  }
+}
+
+4. Create a Service for Database Operations
+
+Create a service to handle MongoDB operations:
+csharp
+
+using MongoDB.Driver;
+
+public class ProductService
+{
+    private readonly IMongoCollection<Product> _products;
+
+    public ProductService(IOptions<MongoDbSettings> settings)
+    {
+        var client = new MongoClient(settings.Value.ConnectionString);
+        var database = client.GetDatabase(settings.Value.DatabaseName);
+        _products = database.GetCollection<Product>("products");
+    }
+
+    public async Task<List<Product>> GetAsync() =>
+        await _products.Find(_ => true).ToListAsync();
+
+    public async Task<Product?> GetAsync(string id) =>
+        await _products.Find(x => x.Id == id).FirstOrDefaultAsync();
+
+    public async Task CreateAsync(Product product) =>
+        await _products.InsertOneAsync(product);
+
+    public async Task UpdateAsync(string id, Product product) =>
+        await _products.ReplaceOneAsync(x => x.Id == id, product);
+
+    public async Task RemoveAsync(string id) =>
+        await _products.DeleteOneAsync(x => x.Id == id);
+}
+
+5. Register Services in Program.cs
+
+In your Program.cs, configure the services:
+csharp
+
+using Microsoft.Extensions.Options;
+
+var builder = WebApplication.CreateBuilder(args);
+
+// Configure MongoDB settings
+builder.Services.Configure<MongoDbSettings>(
+    builder.Configuration.GetSection("MongoDbSettings"));
+
+// Register the service
+builder.Services.AddSingleton<ProductService>();
+
+builder.Services.AddControllers();
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+
+var app = builder.Build();
+
+// Configure middleware
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI();
+}
+
+app.UseHttpsRedirection();
+app.UseAuthorization();
+app.MapControllers();
+
+app.Run();
+
+6. Create a Controller
+
+Create a controller to expose your API endpoints:
+csharp
+
+using Microsoft.AspNetCore.Mvc;
+
+[ApiController]
+[Route("api/[controller]")]
+public class ProductsController : ControllerBase
+{
+    private readonly ProductService _productService;
+
+    public ProductsController(ProductService productService)
+    {
+        _productService = productService;
+    }
+
+    [HttpGet]
+    public async Task<ActionResult<List<Product>>> Get()
+    {
+        var products = await _productService.GetAsync();
+        return Ok(products);
+    }
+
+    [HttpGet("{id}")]
+    public async Task<ActionResult<Product>> Get(string id)
+    {
+        var product = await _productService.GetAsync(id);
+        
+        if (product == null)
+            return NotFound();
+            
+        return Ok(product);
+    }
+
+    [HttpPost]
+    public async Task<ActionResult> Post(Product product)
+    {
+        await _productService.CreateAsync(product);
+        return CreatedAtAction(nameof(Get), new { id = product.Id }, product);
+    }
+
+    [HttpPut("{id}")]
+    public async Task<ActionResult> Put(string id, Product product)
+    {
+        var existing = await _productService.GetAsync(id);
+        
+        if (existing == null)
+            return NotFound();
+            
+        product.Id = id;
+        await _productService.UpdateAsync(id, product);
+        
+        return NoContent();
+    }
+
+    [HttpDelete("{id}")]
+    public async Task<ActionResult> Delete(string id)
+    {
+        var existing = await _productService.GetAsync(id);
+        
+        if (existing == null)
+            return NotFound();
+            
+        await _productService.RemoveAsync(id);
+        
+        return NoContent();
+    }
+}
+
+That's it! Your .NET API should now be connected to MongoDB. Make sure you have MongoDB running locally or update the connection string to point to your MongoDB instance (like MongoDB Atlas for cloud hosting).
+
+
+Claude is AI and can make mistakes. Please double-check responses.
+
