@@ -166,10 +166,10 @@ Voorbeeld: EventPlanner met opgave uit cursus (Cover All)
         }
         ```
 
-    4. Voorbeelden van endpoints: bekijk solution
+## Voorbeelden van endpoints: bekijk solution
 
 
-6. MongoDB
+## MongoDB
 
     1. In Data, maak MongoDbSettings.cs
         ```
@@ -201,5 +201,5 @@ Voorbeeld: EventPlanner met opgave uit cursus (Cover All)
     
     5. Zie solution voor gebruik
 
-7. Dapper
+## Dapper
     1. Zie solution voor gebruik. Nog geen idee hoe te gebruiken met web API, waarschijnlijk ook met addtransient.
