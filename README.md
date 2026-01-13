@@ -108,6 +108,12 @@ Voorbeeld: EventPlanner met opgave uit cursus (Cover All)
         dotnet ef migrations add test --project ..\EventPlanner.Data\EventPlanner.Data.csproj
         dotnet ef database update
 
+        // ALS COMMANDO NIET HERKENT WORDT:
+        dotnet tool install --global dotnet-ef
+        ```
+
+        LET OP!!! EERSTE MIGRATION GEEFT ALTIJD FOUTMELDING!!!
+
 3. (optioneel) Maak models aan in EnventPlanner.Service.Models. Dit is enkel nodig indien bijvoorbeeld range checks moeten gedaan worden, anders zijn DTO's OK, en kunnen rechtstreeks entities aangemaakt worden om DbContext aan te passen.
 
 4. Maak Services aan in EventPlanner.Service (voorbeeld hieronder met LocationService)
