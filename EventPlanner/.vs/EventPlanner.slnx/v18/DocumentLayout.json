@@ -1,25 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\simon\\.git\\Repo-School-LehoucqS\\progg2\\EventPlanner\\",
+  "WorkspaceRootPath": "C:\\Users\\Bosfluide\\Desktop\\shietshiet-examen\\EventPlanner\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5917CB5D-885E-DD00-F84A-E4B887224049}|EventPlanner.Service\\EventPlanner.Service.csproj|c:\\users\\simon\\.git\\repo-school-lehoucqs\\progg2\\eventplanner\\eventplanner.service\\eventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5917CB5D-885E-DD00-F84A-E4B887224049}|EventPlanner.Service\\EventPlanner.Service.csproj|c:\\users\\bosfluide\\desktop\\shietshiet-examen\\eventplanner\\eventplanner.service\\eventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5917CB5D-885E-DD00-F84A-E4B887224049}|EventPlanner.Service\\EventPlanner.Service.csproj|solutionrelative:eventplanner.service\\eventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F3864D01-5A58-5D11-6F30-E1D2E0164EC2}|EventPlanner.Service.Models\\EventPlanner.Service.Models.csproj|c:\\users\\simon\\.git\\repo-school-lehoucqs\\progg2\\eventplanner\\eventplanner.service.models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F3864D01-5A58-5D11-6F30-E1D2E0164EC2}|EventPlanner.Service.Models\\EventPlanner.Service.Models.csproj|c:\\users\\bosfluide\\desktop\\shietshiet-examen\\eventplanner\\eventplanner.service.models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F3864D01-5A58-5D11-6F30-E1D2E0164EC2}|EventPlanner.Service.Models\\EventPlanner.Service.Models.csproj|solutionrelative:eventplanner.service.models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5917CB5D-885E-DD00-F84A-E4B887224049}|EventPlanner.Service\\EventPlanner.Service.csproj|c:\\users\\simon\\.git\\repo-school-lehoucqs\\progg2\\eventplanner\\eventplanner.service\\auditservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5917CB5D-885E-DD00-F84A-E4B887224049}|EventPlanner.Service\\EventPlanner.Service.csproj|c:\\users\\bosfluide\\desktop\\shietshiet-examen\\eventplanner\\eventplanner.service\\auditservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5917CB5D-885E-DD00-F84A-E4B887224049}|EventPlanner.Service\\EventPlanner.Service.csproj|solutionrelative:eventplanner.service\\auditservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{99040F43-9293-204E-DAFE-D6147E0E26C9}|EventPlanner.API\\EventPlanner.API.csproj|c:\\users\\simon\\.git\\repo-school-lehoucqs\\progg2\\eventplanner\\eventplanner.api\\controllers\\locationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{99040F43-9293-204E-DAFE-D6147E0E26C9}|EventPlanner.API\\EventPlanner.API.csproj|c:\\users\\bosfluide\\desktop\\shietshiet-examen\\eventplanner\\eventplanner.api\\controllers\\locationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{99040F43-9293-204E-DAFE-D6147E0E26C9}|EventPlanner.API\\EventPlanner.API.csproj|solutionrelative:eventplanner.api\\controllers\\locationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F3864D01-5A58-5D11-6F30-E1D2E0164EC2}|EventPlanner.Service.Models\\EventPlanner.Service.Models.csproj|c:\\users\\simon\\.git\\repo-school-lehoucqs\\progg2\\eventplanner\\eventplanner.service.models\\audittrail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F3864D01-5A58-5D11-6F30-E1D2E0164EC2}|EventPlanner.Service.Models\\EventPlanner.Service.Models.csproj|c:\\users\\bosfluide\\desktop\\shietshiet-examen\\eventplanner\\eventplanner.service.models\\audittrail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F3864D01-5A58-5D11-6F30-E1D2E0164EC2}|EventPlanner.Service.Models\\EventPlanner.Service.Models.csproj|solutionrelative:eventplanner.service.models\\audittrail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -40,23 +40,24 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Event.cs",
-              "DocumentMoniker": "C:\\Users\\simon\\.git\\Repo-School-LehoucqS\\progg2\\EventPlanner\\EventPlanner.Service.Models\\Event.cs",
+              "DocumentMoniker": "C:\\Users\\Bosfluide\\Desktop\\shietshiet-examen\\EventPlanner\\EventPlanner.Service.Models\\Event.cs",
               "RelativeDocumentMoniker": "EventPlanner.Service.Models\\Event.cs",
-              "ToolTip": "C:\\Users\\simon\\.git\\Repo-School-LehoucqS\\progg2\\EventPlanner\\EventPlanner.Service.Models\\Event.cs",
+              "ToolTip": "C:\\Users\\Bosfluide\\Desktop\\shietshiet-examen\\EventPlanner\\EventPlanner.Service.Models\\Event.cs",
               "RelativeToolTip": "EventPlanner.Service.Models\\Event.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T19:16:56.562Z"
+              "WhenOpened": "2026-01-12T19:16:56.562Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "EventService.cs",
-              "DocumentMoniker": "C:\\Users\\simon\\.git\\Repo-School-LehoucqS\\progg2\\EventPlanner\\EventPlanner.Service\\EventService.cs",
+              "DocumentMoniker": "C:\\Users\\Bosfluide\\Desktop\\shietshiet-examen\\EventPlanner\\EventPlanner.Service\\EventService.cs",
               "RelativeDocumentMoniker": "EventPlanner.Service\\EventService.cs",
-              "ToolTip": "C:\\Users\\simon\\.git\\Repo-School-LehoucqS\\progg2\\EventPlanner\\EventPlanner.Service\\EventService.cs",
+              "ToolTip": "C:\\Users\\Bosfluide\\Desktop\\shietshiet-examen\\EventPlanner\\EventPlanner.Service\\EventService.cs",
               "RelativeToolTip": "EventPlanner.Service\\EventService.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAAAEYAAABKAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-12T19:10:11.971Z",
               "EditorCaption": ""
@@ -65,37 +66,40 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "AuditService.cs",
-              "DocumentMoniker": "C:\\Users\\simon\\.git\\Repo-School-LehoucqS\\progg2\\EventPlanner\\EventPlanner.Service\\AuditService.cs",
+              "DocumentMoniker": "C:\\Users\\Bosfluide\\Desktop\\shietshiet-examen\\EventPlanner\\EventPlanner.Service\\AuditService.cs",
               "RelativeDocumentMoniker": "EventPlanner.Service\\AuditService.cs",
-              "ToolTip": "C:\\Users\\simon\\.git\\Repo-School-LehoucqS\\progg2\\EventPlanner\\EventPlanner.Service\\AuditService.cs",
+              "ToolTip": "C:\\Users\\Bosfluide\\Desktop\\shietshiet-examen\\EventPlanner\\EventPlanner.Service\\AuditService.cs",
               "RelativeToolTip": "EventPlanner.Service\\AuditService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-11T19:12:04.284Z"
+              "WhenOpened": "2026-01-11T19:12:04.284Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "LocationController.cs",
-              "DocumentMoniker": "C:\\Users\\simon\\.git\\Repo-School-LehoucqS\\progg2\\EventPlanner\\EventPlanner.API\\Controllers\\LocationController.cs",
+              "DocumentMoniker": "C:\\Users\\Bosfluide\\Desktop\\shietshiet-examen\\EventPlanner\\EventPlanner.API\\Controllers\\LocationController.cs",
               "RelativeDocumentMoniker": "EventPlanner.API\\Controllers\\LocationController.cs",
-              "ToolTip": "C:\\Users\\simon\\.git\\Repo-School-LehoucqS\\progg2\\EventPlanner\\EventPlanner.API\\Controllers\\LocationController.cs",
+              "ToolTip": "C:\\Users\\Bosfluide\\Desktop\\shietshiet-examen\\EventPlanner\\EventPlanner.API\\Controllers\\LocationController.cs",
               "RelativeToolTip": "EventPlanner.API\\Controllers\\LocationController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-11T00:04:43.951Z"
+              "WhenOpened": "2026-01-11T00:04:43.951Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "AuditTrail.cs",
-              "DocumentMoniker": "C:\\Users\\simon\\.git\\Repo-School-LehoucqS\\progg2\\EventPlanner\\EventPlanner.Service.Models\\AuditTrail.cs",
+              "DocumentMoniker": "C:\\Users\\Bosfluide\\Desktop\\shietshiet-examen\\EventPlanner\\EventPlanner.Service.Models\\AuditTrail.cs",
               "RelativeDocumentMoniker": "EventPlanner.Service.Models\\AuditTrail.cs",
-              "ToolTip": "C:\\Users\\simon\\.git\\Repo-School-LehoucqS\\progg2\\EventPlanner\\EventPlanner.Service.Models\\AuditTrail.cs",
+              "ToolTip": "C:\\Users\\Bosfluide\\Desktop\\shietshiet-examen\\EventPlanner\\EventPlanner.Service.Models\\AuditTrail.cs",
               "RelativeToolTip": "EventPlanner.Service.Models\\AuditTrail.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-10T23:09:47.356Z"
+              "WhenOpened": "2026-01-10T23:09:47.356Z",
+              "EditorCaption": ""
             }
           ]
         }

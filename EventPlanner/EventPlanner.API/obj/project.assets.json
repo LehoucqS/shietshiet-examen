@@ -3588,23 +3588,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\simon\\.nuget\\packages\\": {},
+    "C:\\Users\\Bosfluide\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\simon\\.git\\Repo-School-LehoucqS\\progg2\\EventPlanner\\EventPlanner.API\\EventPlanner.API.csproj",
+      "projectUniqueName": "C:\\Users\\Bosfluide\\Desktop\\shietshiet-examen\\EventPlanner\\EventPlanner.API\\EventPlanner.API.csproj",
       "projectName": "EventPlanner.API",
-      "projectPath": "C:\\Users\\simon\\.git\\Repo-School-LehoucqS\\progg2\\EventPlanner\\EventPlanner.API\\EventPlanner.API.csproj",
-      "packagesPath": "C:\\Users\\simon\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\simon\\.git\\Repo-School-LehoucqS\\progg2\\EventPlanner\\EventPlanner.API\\obj\\",
+      "projectPath": "C:\\Users\\Bosfluide\\Desktop\\shietshiet-examen\\EventPlanner\\EventPlanner.API\\EventPlanner.API.csproj",
+      "packagesPath": "C:\\Users\\Bosfluide\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Bosfluide\\Desktop\\shietshiet-examen\\EventPlanner\\EventPlanner.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\simon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Bosfluide\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3620,14 +3620,14 @@
         "net10.0": {
           "targetAlias": "net10.0",
           "projectReferences": {
-            "C:\\Users\\simon\\.git\\Repo-School-LehoucqS\\progg2\\EventPlanner\\EventPlanner.API.Contracts\\EventPlanner.API.Contracts.csproj": {
-              "projectPath": "C:\\Users\\simon\\.git\\Repo-School-LehoucqS\\progg2\\EventPlanner\\EventPlanner.API.Contracts\\EventPlanner.API.Contracts.csproj"
+            "C:\\Users\\Bosfluide\\Desktop\\shietshiet-examen\\EventPlanner\\EventPlanner.API.Contracts\\EventPlanner.API.Contracts.csproj": {
+              "projectPath": "C:\\Users\\Bosfluide\\Desktop\\shietshiet-examen\\EventPlanner\\EventPlanner.API.Contracts\\EventPlanner.API.Contracts.csproj"
             },
-            "C:\\Users\\simon\\.git\\Repo-School-LehoucqS\\progg2\\EventPlanner\\EventPlanner.Data\\EventPlanner.Data.csproj": {
-              "projectPath": "C:\\Users\\simon\\.git\\Repo-School-LehoucqS\\progg2\\EventPlanner\\EventPlanner.Data\\EventPlanner.Data.csproj"
+            "C:\\Users\\Bosfluide\\Desktop\\shietshiet-examen\\EventPlanner\\EventPlanner.Data\\EventPlanner.Data.csproj": {
+              "projectPath": "C:\\Users\\Bosfluide\\Desktop\\shietshiet-examen\\EventPlanner\\EventPlanner.Data\\EventPlanner.Data.csproj"
             },
-            "C:\\Users\\simon\\.git\\Repo-School-LehoucqS\\progg2\\EventPlanner\\EventPlanner.Service\\EventPlanner.Service.csproj": {
-              "projectPath": "C:\\Users\\simon\\.git\\Repo-School-LehoucqS\\progg2\\EventPlanner\\EventPlanner.Service\\EventPlanner.Service.csproj"
+            "C:\\Users\\Bosfluide\\Desktop\\shietshiet-examen\\EventPlanner\\EventPlanner.Service\\EventPlanner.Service.csproj": {
+              "projectPath": "C:\\Users\\Bosfluide\\Desktop\\shietshiet-examen\\EventPlanner\\EventPlanner.Service\\EventPlanner.Service.csproj"
             }
           }
         }
@@ -3698,7 +3698,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.AspNetCore": "(,10.0.32767]",
           "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",

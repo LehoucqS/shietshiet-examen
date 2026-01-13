@@ -12,11 +12,12 @@ Voorbeeld: EventPlanner met opgave uit cursus (Cover All)
 6. Add Project -> EventPlanner.Service        (Class Library)
 7. Add Project -> EventPlanner.Service.Models    (Class Library)
 8. Add Nuget Packages (op heel solution voor 't gemak)
-    1. Npgsql.EntityFrameworkCore.PostgreSQL
-    2. Microsoft.EntityFrameworkCore.Design
-    3. Microsoft.AspNetCore.OpenApi
-    4. Dapper
-    5. MongoDB.Driver
+    1. Npgsql
+    2. Npgsql.EntityFrameworkCore.PostgreSQL
+    3. Microsoft.EntityFrameworkCore.Design
+    4. Microsoft.AspNetCore.OpenApi
+    5. Dapper
+    6. MongoDB.Driver
 
 ## Aanmaak DB Postgres
 
