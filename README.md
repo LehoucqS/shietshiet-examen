@@ -47,35 +47,25 @@ Voorbeeld: EventPlanner met opgave uit cursus (Cover All)
     1. Location
         
         ```
-        int Id;
-        string Name;
-        string Description;
-        double GpsLat;
-        double GpsLon;
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public string Description { get; set; }
+        public double GpsLat { get; set; }
+        public double GpsLon { get; set; }
         ```
 
     2. Event
         
         ```
-        int Id;
-        Location EventLocation;
-        string Name;
-        DateTime StartDateTime;
-        DateTime EndDateTime;
-        List<Job> AssignedJobs;
+        public int Id { get; set; }
+        public Location EventLocation { get; set; }
+        public string Name { get; set; }
+        public DateTime StartDateTime { get; set; }
+        public DateTime EndDateTime { get; set; }
+        public List<Job> AssignedJobs { get; set; }
         ```
 
-    3. Job
-        
-        ```
-        int Id;
-        Event EventAssigned;
-        string Name;
-        string Description;
-        int Priority;
-        int Status;
-        DateTime DeadlineDateTime;
-        ```
+
 
 2. Maak EventDbContext (in EventPlanner.Data)
    
@@ -96,7 +86,7 @@ Voorbeeld: EventPlanner met opgave uit cursus (Cover All)
         ```
         public DbSet<Event> Events { get; set; }
         public DbSet<Location> Locations { get; set; }
-        public DbSet<Job> Jobs { get; set; }
+
         ```
     5. Connection string toevoegen: 
         
